@@ -1,9 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git -C \"C:\\\\Users\\\\paulb\\\\Python\\\\vibe-test3\" add app.py)",
-      "Bash(git -C \"C:\\\\Users\\\\paulb\\\\Python\\\\vibe-test3\" add annuity.py)",
-      "Bash(git -C 'C:\\\\Users\\\\paulb\\\\Python\\\\vibe-test3' commit -m ' *)",
+      "Bash(git -C \"C:\\\\Users\\\\paulb\\\\Python\\\\vibe-demo-PLRe\" add app.py)",
+      "Bash(git -C \"C:\\\\Users\\\\paulb\\\\Python\\\\vibe-demo-PLRe\" add annuity.py)",
+      "Bash(git -C 'C:\\\\Users\\\\paulb\\\\Python\\\\vibe-demo-PLRe' commit -m ' *)",
       "Bash(git *)",
       "Bash(gh pr *)"
     ]
