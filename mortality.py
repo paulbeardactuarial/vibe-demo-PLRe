@@ -84,6 +84,6 @@ def pv_annuity(
             if annuity_type == "first_death":
                 out[i] = float(np.dot(d, px * py))
             else:
-                out[i] = float(np.dot(d, px + py + px * py))
+                out[i] = float(np.dot(d, px + py - px * py))
 
     return float(out[0]) if scalar else out
